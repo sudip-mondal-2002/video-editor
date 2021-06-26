@@ -1,6 +1,5 @@
-from tkinter import *
-from tkinter import filedialog
-from moviepy.editor import *
+from tkinter import filedialog, Label, Scale, Tk, Button, HORIZONTAL, GROOVE
+from moviepy.editor import VideoFileClip, concatenate_videoclips, vfx
 import datetime
 
 def mix():
